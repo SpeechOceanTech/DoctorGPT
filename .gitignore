@@ -1,0 +1,10 @@
+Untitled*
+__pycache__
+llama-2*
+test.py
+test.ipynb
+vocab.json
+lora_checkpoints
+wandb
+*.model
+.deepspeed_env
