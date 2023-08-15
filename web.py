@@ -1,5 +1,6 @@
 # encoding: utf8
 
+import os
 import json
 import streamlit as st
 
@@ -12,7 +13,7 @@ from typing import List, Dict, Tuple, Optional
 from generation import chat
 
 
-model_path = "/data/models/medllama2_7b"
+model_path = os.environ.get("MODEL_PATH", "/data/models/medllama2_7b")
 
 user_avatar = "🧑‍💻"
 assistant_avatar = "🤖"
