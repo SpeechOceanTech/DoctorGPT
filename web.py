@@ -44,7 +44,7 @@ def clear_chat_history():
 
 def init_chat_history():
     with st.chat_message("assistant", avatar=assistant_avatar):
-        st.markdown("Welcom to DoctorGPT Model")
+        st.markdown("Welcome to DoctorGPT Model")
 
     if "messages" in st.session_state:
         for message in st.session_state.messages:
